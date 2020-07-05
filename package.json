@@ -1,10 +1,10 @@
 {
-  "name": "react-social-media-icon",
-  "version": "1.0.0",
+  "name": "react-animated-fa",
+  "version": "1.0.1",
   "description": "Social media icon and hover animation",
   "author": "yang052513",
   "license": "MIT",
-  "repository": "yang052513/react-social-media-icon",
+  "repository": "yang052513/react-animated-fa",
   "main": "lib/index.js",
   "scripts": {
     "start": "ts-node ./src/index.tsx",

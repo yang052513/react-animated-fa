@@ -2,18 +2,18 @@
 
 > A react social media icon component with hover animation
 
-[![NPM](https://img.shields.io/npm/v/react-social-media-icon.svg)](https://www.npmjs.com/package/react-social-media-icon) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/react-animated-fa.svg)](https://www.npmjs.com/package/react-animated-fa) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install react-social-media-icon
+npm install react-animated-fa
 ```
 
 ## Import
 
 ```js
-import { Icon } from 'react-social-media-icon'
+import { Icon } from 'react-animated-fa'
 ```
 
 ## Properties
