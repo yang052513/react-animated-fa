@@ -1,0 +1,23 @@
+{
+  "name": "react-social-media-icon",
+  "version": "1.0.0",
+  "description": "Social media icon and hover animation",
+  "author": "yang052513",
+  "license": "MIT",
+  "repository": "yang052513/react-social-media-icon",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "ts-node ./src/index.tsx",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p ."
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@types/react": "^16.9.41",
+    "react": "^16.13.1",
+    "typescript": "^3.9.6"
+  },
+  "dependencies": {
+    "styled-components": "^5.1.1"
+  }
+}
