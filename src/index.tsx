@@ -1,5 +1,6 @@
 import React from 'react'
 import styled, { keyframes } from 'styled-components'
+import './App.css'
 
 interface Props {
   iconUrl: string
@@ -23,17 +24,27 @@ export const App: React.FC<Props> = ({ iconUrl, link }) => {
         left: -10%;
     }
   `
+  const Icon = styled.i`
+    line-height: 50px;
+    font-size: 24px;
+    transition: 0.2s linear;
+  `
+
   const IconWrap = styled.a`
     text-align: center;
     display: inline-block;
     width: 50px;
     height: 50px;
-    background: #f1f1f1;
+    /* background: #f1f1f1; */
     margin: 10px;
     border-radius: 30%;
     color: #000000;
     overflow: hidden;
     position: relative;
+    &:hover ${Icon} {
+      transform: scale(1.3);
+      color: #f1f1f1;
+    }
     &::before {
       content: '';
       position: absolute;
@@ -51,18 +62,8 @@ export const App: React.FC<Props> = ({ iconUrl, link }) => {
     }
   `
 
-  const Icon = styled.i`
-    line-height: 50px;
-    font-size: 24px;
-    transition: 0.2s linear;
-    &:hover {
-      transform: scale(1.3);
-      color: #f1f1f1;
-    }
-  `
-
   return (
-    <IconWrap as="a" className="social-media-icon" href={link}>
+    <IconWrap as="a" className="btn" href={link}>
       <Icon className={iconUrl}></Icon>
     </IconWrap>
   )

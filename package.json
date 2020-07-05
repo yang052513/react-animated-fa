@@ -18,6 +18,7 @@
     "typescript": "^3.9.6"
   },
   "dependencies": {
+    "@types/styled-components": "^5.1.0",
     "styled-components": "^5.1.1"
   }
 }
