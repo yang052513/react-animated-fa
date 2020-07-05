@@ -1,7 +1,7 @@
 {
   "name": "react-animated-fa",
-  "version": "1.0.1",
-  "description": "Social media icon and hover animation",
+  "version": "1.0.2",
+  "description": "A beautiful and easy to use react animated font-awesome icon component.",
   "author": "yang052513",
   "license": "MIT",
   "repository": "yang052513/react-animated-fa",
